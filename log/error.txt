@@ -1,0 +1,29 @@
+(pytorch_1.7_cpu) PS D:\关键必读书籍和论文\paper\我的小论文\bgnn>  python scripts/run2.py datasets/elliptic  bgnn --max_seeds 1 --repeat_exp 1 --task classification  --class_unbalanced True  --save_folder ./elliptic_bgnn --version_num 1.0 > log.txt
+Using backend: pytorch
+Traceback (most recent call last):
+  File "scripts/run2.py", line 536, in <module>
+    fire.Fire(RunModel().run)
+  File "C:\Users\mi\.conda\envs\pytorch_1.7_cpu\lib\site-packages\fire\core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "C:\Users\mi\.conda\envs\pytorch_1.7_cpu\lib\site-packages\fire\core.py", line 471, in _Fire
+    target=component.__name__)
+  File "C:\Users\mi\.conda\envs\pytorch_1.7_cpu\lib\site-packages\fire\core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "scripts/run2.py", line 489, in run
+    self.get_input(dataset_dir, dataset)
+  File "scripts/run2.py", line 88, in get_input
+    self.read_input(input_folder)
+  File "scripts/run2.py", line 40, in read_input
+    networkx_graph = nx.read_graphml(f'{input_folder}/graph.graphml')
+  File "<decorator-gen-692>", line 2, in read_graphml
+  File "C:\Users\mi\.conda\envs\pytorch_1.7_cpu\lib\site-packages\networkx\utils\decorators.py", line 239, in _open_file
+    result = func_to_be_decorated(*new_args, **kwargs)
+  File "C:\Users\mi\.conda\envs\pytorch_1.7_cpu\lib\site-packages\networkx\readwrite\graphml.py", line 258, in read_graphml
+    glist = list(reader(path=path))
+  File "C:\Users\mi\.conda\envs\pytorch_1.7_cpu\lib\site-packages\networkx\readwrite\graphml.py", line 775, in __call__
+    (keys, defaults) = self.find_graphml_keys(self.xml)
+  File "C:\Users\mi\.conda\envs\pytorch_1.7_cpu\lib\site-packages\networkx\readwrite\graphml.py", line 951, in find_graphml_keys
+    "type": self.python_type[attr_type],
+KeyError: 'long'
+
+这个问题已经解决了，就是将networkx 版本降低就ok了。

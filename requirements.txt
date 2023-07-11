@@ -1,0 +1,15 @@
+numpy
+plotly
+catboost
+xgboost
+dgl
+lightgbm
+networkx==2.4 # 2.5的版本报错
+matplotlib
+pandas
+tqdm
+fire
+omegaconf
+category_encoders
+scikit_learn
+

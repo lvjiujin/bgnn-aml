@@ -1,0 +1,52 @@
+Using backend: pytorch
+dataset =  datasets/elliptic
+args =  ('bgnn',)
+task =  classification
+class_unbalanced =  True
+feature_importance =  False
+feature_select_top_num =  0
+repeat_exp =  1
+max_seeds =  1
+config_dir =  None
+datasets configs\model
+Save to folder: ./elliptic_bgnn_20210729_V5.0
+datasets/elliptic Seed 0
+
+Seed 0 RUNNING:bgnn-all_orig_featFalse-class_weightsNone-depth6-dropout0.0-ex_input_featFalse-hidden_dim64-in_featFalse-iter_per_epoch30-lr0.003-nameagnn-only_gbdtFalse
+type(self.X) =  <class 'pandas.core.frame.DataFrame'>
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:03<10:19,  3.11s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:05<08:47,  2.66s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:07<08:21,  2.55s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:10<08:09,  2.50s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:12<08:07,  2.50s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:15<08:00,  2.47s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:17<07:57,  2.48s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:20<07:53,  2.47s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:22<07:44,  2.43s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [00:24<07:39,  2.42s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [00:27<07:36,  2.42s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 12/200 [00:29<07:33,  2.41s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨ƒ         | 13/200 [00:32<07:30,  2.41s/it]before2 predictions.shape =  (203769, 2)
+  7%|¨ƒ         | 14/200 [00:34<07:29,  2.41s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 15/200 [00:36<07:24,  2.40s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 16/200 [00:39<07:22,  2.40s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 17/200 [00:41<07:25,  2.44s/it]before2 predictions.shape =  (203769, 2)
+  9%|¨         | 18/200 [00:44<07:21,  2.43s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨         | 19/200 [00:46<07:19,  2.43s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 20/200 [00:49<07:12,  2.41s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 21/200 [00:51<07:11,  2.41s/it]before2 predictions.shape =  (203769, 2)
+ 11%|¨€         | 22/200 [00:53<07:11,  2.42s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 23/200 [00:56<07:07,  2.42s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 24/200 [00:58<07:01,  2.40s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨†        | 25/200 [01:01<07:02,  2.41s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  25
+ 12%|¨€¨†        | 25/200 [01:03<07:25,  2.55s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 14: 0.999/0.825/0.821
+best_result =  (0.9674901366233826, 0.8623853325843811, 0.8407789468765259, 0.8254879713058472, 0.967165470123291, 0.8672798871994019, 0.8157894611358643, 0.8212669491767883, 70.69519710540771)
+np.shape(scores) = (1, 8)
+scores =  [(0.9674901366233826, 0.8623853325843811, 0.8407789468765259, 0.8254879713058472, 0.967165470123291, 0.8672798871994019, 0.8157894611358643, 0.8212669491767883)]
+Finished datasets/elliptic: 81.19564247131348 sec.

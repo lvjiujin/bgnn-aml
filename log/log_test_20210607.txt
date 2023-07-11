@@ -1,0 +1,552 @@
+Using backend: pytorch
+dataset =  datasets/elliptic
+args =  ('bgnn',)
+task =  classification
+class_unbalanced =  True
+feature_importance =  False
+feature_select_top_num =  0
+repeat_exp =  5
+max_seeds =  5
+config_dir =  None
+datasets configs\model
+Save to folder: ./elliptic_bgnn_20210607_20210607_V1.0
+datasets/elliptic Seed 0
+
+Seed 0 RUNNING:bgnn-all_orig_featFalse-class_weightsNone-depth6-dropout0.0-ex_input_featFalse-hidden_dim64-in_featFalse-iter_per_epoch30-lr0.003-namearma-only_gbdtFalse
+type(self.X) =  <class 'pandas.core.frame.DataFrame'>
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:09<32:03,  9.66s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:15<25:11,  7.63s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:21<22:28,  6.85s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:27<21:18,  6.52s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:33<20:37,  6.35s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:40<21:03,  6.51s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:46<20:32,  6.39s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:52<20:13,  6.32s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:59<19:51,  6.24s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [01:05<19:35,  6.19s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:11<19:24,  6.16s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 12/200 [01:18<19:55,  6.36s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨ƒ         | 13/200 [01:24<19:38,  6.30s/it]before2 predictions.shape =  (203769, 2)
+  7%|¨ƒ         | 14/200 [01:30<19:26,  6.27s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 15/200 [01:36<19:05,  6.19s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  15
+  8%|¨‚         | 15/200 [01:42<21:05,  6.84s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 4: 0.001/0.002/0.000
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<18:03,  5.44s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<19:25,  5.88s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:17<19:09,  5.84s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:23<19:32,  5.98s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:29<19:39,  6.05s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:35<19:34,  6.06s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:41<19:20,  6.01s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:47<19:03,  5.96s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:53<19:04,  5.99s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [00:59<18:51,  5.96s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:05<18:56,  6.01s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 12/200 [01:11<18:46,  5.99s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨ƒ         | 13/200 [01:17<18:51,  6.05s/it]before2 predictions.shape =  (203769, 2)
+  7%|¨ƒ         | 14/200 [01:23<18:46,  6.06s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 15/200 [01:30<18:43,  6.08s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 16/200 [01:36<18:52,  6.15s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  16
+  8%|¨‚         | 16/200 [01:42<19:39,  6.41s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 5: 1.000/0.807/0.821
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<19:26,  5.86s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<19:28,  5.90s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:17<19:43,  6.01s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:23<19:40,  6.02s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:30<19:44,  6.07s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:36<19:34,  6.05s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:42<19:43,  6.13s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:48<19:30,  6.10s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:54<19:34,  6.15s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [01:00<19:09,  6.05s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:06<18:57,  6.02s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 12/200 [01:12<18:43,  5.98s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨ƒ         | 13/200 [01:18<18:35,  5.97s/it]before2 predictions.shape =  (203769, 2)
+  7%|¨ƒ         | 14/200 [01:24<18:44,  6.05s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  14
+  7%|¨ƒ         | 14/200 [01:30<20:02,  6.47s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 3: 1.000/0.789/0.806
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<18:15,  5.51s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<19:24,  5.88s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:17<19:39,  5.98s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:23<19:43,  6.04s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:30<19:53,  6.12s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:36<19:46,  6.11s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:42<19:45,  6.14s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:48<19:42,  6.16s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:54<19:25,  6.10s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [01:00<19:29,  6.16s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:06<18:59,  6.03s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  11
+  6%|¨„         | 11/200 [01:12<20:49,  6.61s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 0: 0.000/0.000/0.000
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<18:05,  5.46s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<18:46,  5.69s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:17<18:55,  5.76s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:23<19:03,  5.84s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:28<19:00,  5.85s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:34<18:48,  5.81s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:40<18:56,  5.89s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:46<18:59,  5.94s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:52<18:57,  5.95s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [00:58<18:42,  5.91s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:04<18:36,  5.91s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 12/200 [01:10<18:34,  5.93s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨ƒ         | 13/200 [01:16<18:39,  5.99s/it]before2 predictions.shape =  (203769, 2)
+  7%|¨ƒ         | 14/200 [01:22<18:20,  5.92s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 15/200 [01:28<18:25,  5.97s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 16/200 [01:34<18:09,  5.92s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 17/200 [01:40<17:57,  5.89s/it]before2 predictions.shape =  (203769, 2)
+  9%|¨         | 18/200 [01:46<17:56,  5.92s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨         | 19/200 [01:52<18:00,  5.97s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 20/200 [01:58<17:53,  5.96s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 21/200 [02:04<17:50,  5.98s/it]before2 predictions.shape =  (203769, 2)
+ 11%|¨€         | 22/200 [02:10<17:50,  6.02s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 23/200 [02:16<18:02,  6.12s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 24/200 [02:22<17:51,  6.09s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨†        | 25/200 [02:28<17:51,  6.12s/it]before2 predictions.shape =  (203769, 2)
+ 13%|¨€¨†        | 26/200 [02:34<17:41,  6.10s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨†        | 27/200 [02:40<17:26,  6.05s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨…        | 28/200 [02:47<17:35,  6.14s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨…        | 29/200 [02:53<17:33,  6.16s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  29
+ 14%|¨€¨…        | 29/200 [02:59<17:39,  6.19s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 18: 1.000/0.851/0.869
+best_result =  (0.9418282628059387, 0.7452943682670593, 0.462762419693172, 0.48977086301892997, 0.9433143496513366, 0.5493974566459656, 0.4758849501609802, 0.49909358024597167, 124.07953057289123)
+np.shape(scores) = (1, 8)
+scores =  [(0.9418282628059387, 0.7452943682670593, 0.462762419693172, 0.48977086301892997, 0.9433143496513366, 0.5493974566459656, 0.4758849501609802, 0.49909358024597167)]
+datasets/elliptic Seed 1
+
+Seed 1 RUNNING:bgnn-all_orig_featFalse-class_weightsNone-depth6-dropout0.0-ex_input_featFalse-hidden_dim64-in_featFalse-iter_per_epoch30-lr0.003-namearma-only_gbdtFalse
+type(self.X) =  <class 'pandas.core.frame.DataFrame'>
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<18:24,  5.55s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<19:34,  5.93s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:17<19:37,  5.98s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:23<19:34,  5.99s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:29<19:22,  5.96s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:35<19:25,  6.01s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:41<19:24,  6.03s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:47<19:08,  5.98s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:53<19:08,  6.02s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [00:59<19:03,  6.02s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:05<18:53,  6.00s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  11
+  6%|¨„         | 11/200 [01:11<20:33,  6.53s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 0: 0.004/0.000/0.000
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<18:38,  5.62s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<18:38,  5.65s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:17<18:59,  5.78s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:23<19:05,  5.85s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:29<19:03,  5.86s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:35<19:04,  5.90s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:40<19:00,  5.91s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:46<18:59,  5.94s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:52<18:56,  5.95s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [00:58<18:52,  5.96s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:04<18:41,  5.94s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 12/200 [01:10<18:41,  5.97s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨ƒ         | 13/200 [01:16<18:32,  5.95s/it]before2 predictions.shape =  (203769, 2)
+  7%|¨ƒ         | 14/200 [01:22<18:18,  5.90s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 15/200 [01:28<18:23,  5.97s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 16/200 [01:34<18:17,  5.96s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 17/200 [01:40<18:19,  6.01s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  17
+  8%|¨‚         | 17/200 [01:46<19:08,  6.27s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 6: 1.000/0.868/0.842
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<17:24,  5.25s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<18:30,  5.61s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:17<18:51,  5.75s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:22<18:57,  5.80s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:28<18:51,  5.80s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:34<18:45,  5.80s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:40<18:34,  5.77s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:46<18:37,  5.82s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:52<18:43,  5.88s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [00:58<18:37,  5.88s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:03<18:32,  5.89s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 12/200 [01:09<18:23,  5.87s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨ƒ         | 13/200 [01:15<18:17,  5.87s/it]before2 predictions.shape =  (203769, 2)
+  7%|¨ƒ         | 14/200 [01:21<18:19,  5.91s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 15/200 [01:27<18:12,  5.91s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 16/200 [01:33<18:02,  5.88s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 17/200 [01:39<17:53,  5.87s/it]before2 predictions.shape =  (203769, 2)
+  9%|¨         | 18/200 [01:45<18:04,  5.96s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨         | 19/200 [01:51<17:53,  5.93s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 20/200 [01:57<17:58,  5.99s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 21/200 [02:03<17:46,  5.96s/it]before2 predictions.shape =  (203769, 2)
+ 11%|¨€         | 22/200 [02:09<17:43,  5.97s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 23/200 [02:15<17:39,  5.99s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 24/200 [02:21<17:33,  5.99s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨†        | 25/200 [02:27<17:25,  5.97s/it]before2 predictions.shape =  (203769, 2)
+ 13%|¨€¨†        | 26/200 [02:33<17:28,  6.03s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨†        | 27/200 [02:39<17:34,  6.09s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨…        | 28/200 [02:45<17:21,  6.06s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨…        | 29/200 [02:51<17:14,  6.05s/it]before2 predictions.shape =  (203769, 2)
+ 15%|¨€¨„        | 30/200 [02:57<17:21,  6.12s/it]before2 predictions.shape =  (203769, 2)
+ 16%|¨€¨„        | 31/200 [03:03<17:08,  6.08s/it]before2 predictions.shape =  (203769, 2)
+ 16%|¨€¨„        | 32/200 [03:09<16:58,  6.06s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  32
+ 16%|¨€¨„        | 32/200 [03:15<17:08,  6.12s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 21: 1.000/0.884/0.865
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<17:34,  5.30s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<18:42,  5.67s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:17<18:50,  5.74s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:22<18:55,  5.79s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:28<18:54,  5.82s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:34<18:56,  5.86s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:40<19:02,  5.92s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:46<18:51,  5.90s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:52<18:53,  5.94s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [00:58<18:53,  5.97s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:04<18:50,  5.98s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 12/200 [01:11<19:07,  6.11s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨ƒ         | 13/200 [01:20<22:08,  7.10s/it]before2 predictions.shape =  (203769, 2)
+  7%|¨ƒ         | 14/200 [01:23<18:28,  5.96s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 15/200 [01:26<15:45,  5.11s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 16/200 [01:30<13:57,  4.55s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 17/200 [01:33<12:35,  4.13s/it]before2 predictions.shape =  (203769, 2)
+  9%|¨         | 18/200 [01:36<11:39,  3.84s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨         | 19/200 [01:39<10:55,  3.62s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 20/200 [01:42<10:32,  3.51s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 21/200 [01:46<10:15,  3.44s/it]before2 predictions.shape =  (203769, 2)
+ 11%|¨€         | 22/200 [01:49<10:01,  3.38s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 23/200 [01:52<09:43,  3.30s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 24/200 [01:55<09:36,  3.28s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨†        | 25/200 [01:58<09:27,  3.24s/it]before2 predictions.shape =  (203769, 2)
+ 13%|¨€¨†        | 26/200 [02:02<09:19,  3.22s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨†        | 27/200 [02:05<09:12,  3.19s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨…        | 28/200 [02:08<09:08,  3.19s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨…        | 29/200 [02:11<09:01,  3.17s/it]before2 predictions.shape =  (203769, 2)
+ 15%|¨€¨„        | 30/200 [02:14<08:56,  3.15s/it]before2 predictions.shape =  (203769, 2)
+ 16%|¨€¨„        | 31/200 [02:17<08:52,  3.15s/it]before2 predictions.shape =  (203769, 2)
+ 16%|¨€¨„        | 32/200 [02:20<08:47,  3.14s/it]before2 predictions.shape =  (203769, 2)
+ 16%|¨€¨ƒ        | 33/200 [02:23<08:44,  3.14s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  33
+ 16%|¨€¨ƒ        | 33/200 [02:27<12:24,  4.46s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 22: 1.000/0.874/0.853
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:03<10:02,  3.03s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:06<10:18,  3.12s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:09<10:18,  3.14s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:12<10:05,  3.09s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:15<10:00,  3.08s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:19<10:49,  3.35s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:25<13:22,  4.16s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:30<14:57,  4.67s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:36<16:15,  5.11s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [00:43<17:05,  5.40s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [00:48<17:25,  5.53s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  11
+  6%|¨„         | 11/200 [00:54<15:44,  5.00s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 0: 0.001/0.000/0.000
+best_result =  (0.9418282628059387, 0.7452943682670593, 0.462762419693172, 0.48977086301892997, 0.9433143496513366, 0.5493974566459656, 0.4758849501609802, 0.49909358024597167, 124.07953057289123)
+best_result =  (0.9477163314819336, 0.5610893607139588, 0.5217294812202453, 0.5251514196395874, 0.9441452980041504, 0.5488946199417114, 0.5068852424621582, 0.5120555639266968, 126.40695424079895)
+np.shape(scores) = (2, 8)
+scores =  [(0.9418282628059387, 0.7452943682670593, 0.462762419693172, 0.48977086301892997, 0.9433143496513366, 0.5493974566459656, 0.4758849501609802, 0.49909358024597167), (0.9477163314819336, 0.5610893607139588, 0.5217294812202453, 0.5251514196395874, 0.9441452980041504, 0.5488946199417114, 0.5068852424621582, 0.5120555639266968)]
+datasets/elliptic Seed 2
+
+Seed 2 RUNNING:bgnn-all_orig_featFalse-class_weightsNone-depth6-dropout0.0-ex_input_featFalse-hidden_dim64-in_featFalse-iter_per_epoch30-lr0.003-namearma-only_gbdtFalse
+type(self.X) =  <class 'pandas.core.frame.DataFrame'>
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<19:31,  5.89s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<19:23,  5.88s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:18<19:58,  6.08s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:23<19:31,  5.98s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:29<19:13,  5.91s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:35<19:26,  6.01s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:41<19:16,  5.99s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:47<19:09,  5.99s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:53<19:01,  5.98s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [01:00<19:17,  6.09s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:06<19:15,  6.11s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 12/200 [01:12<19:12,  6.13s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨ƒ         | 13/200 [01:18<19:02,  6.11s/it]before2 predictions.shape =  (203769, 2)
+  7%|¨ƒ         | 14/200 [01:24<18:55,  6.10s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 15/200 [01:30<18:50,  6.11s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 16/200 [01:37<18:56,  6.17s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 17/200 [01:43<18:40,  6.12s/it]before2 predictions.shape =  (203769, 2)
+  9%|¨         | 18/200 [01:49<18:42,  6.17s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨         | 19/200 [01:55<18:33,  6.15s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 20/200 [02:01<18:25,  6.14s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 21/200 [02:07<18:30,  6.20s/it]before2 predictions.shape =  (203769, 2)
+ 11%|¨€         | 22/200 [02:14<18:41,  6.30s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 23/200 [02:20<18:34,  6.30s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 24/200 [02:27<18:31,  6.32s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨†        | 25/200 [02:33<18:16,  6.27s/it]before2 predictions.shape =  (203769, 2)
+ 13%|¨€¨†        | 26/200 [02:39<18:32,  6.39s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨†        | 27/200 [02:46<18:46,  6.51s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨…        | 28/200 [02:52<18:22,  6.41s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨…        | 29/200 [02:59<18:06,  6.35s/it]before2 predictions.shape =  (203769, 2)
+ 15%|¨€¨„        | 30/200 [03:05<17:48,  6.29s/it]before2 predictions.shape =  (203769, 2)
+ 16%|¨€¨„        | 31/200 [03:11<17:40,  6.28s/it]before2 predictions.shape =  (203769, 2)
+ 16%|¨€¨„        | 32/200 [03:17<17:25,  6.22s/it]before2 predictions.shape =  (203769, 2)
+ 16%|¨€¨ƒ        | 33/200 [03:23<17:19,  6.23s/it]before2 predictions.shape =  (203769, 2)
+ 17%|¨€¨ƒ        | 34/200 [03:30<17:14,  6.23s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  34
+ 17%|¨€¨ƒ        | 34/200 [03:36<17:36,  6.37s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 23: 1.000/0.867/0.849
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<18:41,  5.63s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<18:29,  5.60s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:17<18:43,  5.70s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:22<18:47,  5.75s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:29<19:15,  5.93s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:34<18:59,  5.87s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:40<18:52,  5.87s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:46<18:43,  5.85s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:52<18:44,  5.89s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [00:58<18:49,  5.94s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:04<18:48,  5.97s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 12/200 [01:10<18:44,  5.98s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨ƒ         | 13/200 [01:16<18:38,  5.98s/it]before2 predictions.shape =  (203769, 2)
+  7%|¨ƒ         | 14/200 [01:22<18:39,  6.02s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 15/200 [01:28<18:31,  6.01s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 16/200 [01:34<18:20,  5.98s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 17/200 [01:40<18:03,  5.92s/it]before2 predictions.shape =  (203769, 2)
+  9%|¨         | 18/200 [01:46<17:57,  5.92s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨         | 19/200 [01:52<17:46,  5.89s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  19
+ 10%|¨         | 19/200 [01:58<18:46,  6.22s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 8: 1.000/0.827/0.817
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<17:40,  5.33s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<19:19,  5.86s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:17<19:32,  5.95s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:23<19:21,  5.93s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:29<19:21,  5.96s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:35<19:36,  6.07s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:41<19:15,  5.99s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:47<19:03,  5.96s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:53<19:04,  5.99s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [00:59<18:54,  5.97s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:05<18:49,  5.98s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 12/200 [01:11<18:35,  5.94s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨ƒ         | 13/200 [01:17<18:48,  6.04s/it]before2 predictions.shape =  (203769, 2)
+  7%|¨ƒ         | 14/200 [01:23<18:28,  5.96s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 15/200 [01:29<18:42,  6.07s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 16/200 [01:35<18:37,  6.07s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 17/200 [01:41<18:36,  6.10s/it]before2 predictions.shape =  (203769, 2)
+  9%|¨         | 18/200 [01:48<18:30,  6.10s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨         | 19/200 [01:54<18:30,  6.13s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 20/200 [02:00<18:38,  6.21s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 21/200 [02:06<18:26,  6.18s/it]before2 predictions.shape =  (203769, 2)
+ 11%|¨€         | 22/200 [02:13<18:24,  6.20s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 23/200 [02:19<18:25,  6.25s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 24/200 [02:25<18:30,  6.31s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨†        | 25/200 [02:31<18:12,  6.24s/it]before2 predictions.shape =  (203769, 2)
+ 13%|¨€¨†        | 26/200 [02:38<18:19,  6.32s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨†        | 27/200 [02:44<18:13,  6.32s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨…        | 28/200 [02:51<18:15,  6.37s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨…        | 29/200 [02:57<18:05,  6.35s/it]before2 predictions.shape =  (203769, 2)
+ 15%|¨€¨„        | 30/200 [03:04<18:10,  6.41s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  30
+ 15%|¨€¨„        | 30/200 [03:10<17:59,  6.35s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 19: 1.000/0.856/0.842
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<18:19,  5.53s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<19:08,  5.80s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:17<19:36,  5.97s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:23<19:14,  5.89s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:29<19:25,  5.98s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:35<19:08,  5.92s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:41<19:21,  6.02s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:47<19:19,  6.04s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:53<19:20,  6.07s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [00:59<19:10,  6.06s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:05<18:51,  5.99s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 12/200 [01:11<18:57,  6.05s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨ƒ         | 13/200 [01:17<18:40,  5.99s/it]before2 predictions.shape =  (203769, 2)
+  7%|¨ƒ         | 14/200 [01:23<18:43,  6.04s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 15/200 [01:29<18:38,  6.05s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 16/200 [01:36<18:43,  6.11s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 17/200 [01:42<18:52,  6.19s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  17
+  8%|¨‚         | 17/200 [01:48<19:27,  6.38s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 6: 1.000/0.837/0.832
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<17:21,  5.23s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<18:19,  5.55s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:16<18:48,  5.73s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:22<18:50,  5.77s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:28<18:49,  5.79s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:34<19:05,  5.90s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:40<19:02,  5.92s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:46<19:13,  6.01s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:53<19:14,  6.04s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [00:59<19:22,  6.12s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:05<19:07,  6.07s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  11
+  6%|¨„         | 11/200 [01:11<20:21,  6.46s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 0: 0.004/0.000/0.000
+best_result =  (0.9418282628059387, 0.7452943682670593, 0.462762419693172, 0.48977086301892997, 0.9433143496513366, 0.5493974566459656, 0.4758849501609802, 0.49909358024597167, 124.07953057289123)
+best_result =  (0.9477163314819336, 0.5610893607139588, 0.5217294812202453, 0.5251514196395874, 0.9441452980041504, 0.5488946199417114, 0.5068852424621582, 0.5120555639266968, 126.40695424079895)
+best_result =  (0.9604847431182861, 0.7542667627334595, 0.6524706006050109, 0.6775001645088196, 0.9562788724899292, 0.55077623128891, 0.6461878538131713, 0.6678794860839844, 153.2654341697693)
+np.shape(scores) = (3, 8)
+scores =  [(0.9418282628059387, 0.7452943682670593, 0.462762419693172, 0.48977086301892997, 0.9433143496513366, 0.5493974566459656, 0.4758849501609802, 0.49909358024597167), (0.9477163314819336, 0.5610893607139588, 0.5217294812202453, 0.5251514196395874, 0.9441452980041504, 0.5488946199417114, 0.5068852424621582, 0.5120555639266968), (0.9604847431182861, 0.7542667627334595, 0.6524706006050109, 0.6775001645088196, 0.9562788724899292, 0.55077623128891, 0.6461878538131713, 0.6678794860839844)]
+datasets/elliptic Seed 3
+
+Seed 3 RUNNING:bgnn-all_orig_featFalse-class_weightsNone-depth6-dropout0.0-ex_input_featFalse-hidden_dim64-in_featFalse-iter_per_epoch30-lr0.003-namearma-only_gbdtFalse
+type(self.X) =  <class 'pandas.core.frame.DataFrame'>
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:06<20:19,  6.13s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:12<19:49,  6.01s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:18<19:39,  5.99s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:24<19:44,  6.04s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:30<19:53,  6.12s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:36<19:43,  6.10s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:42<19:32,  6.08s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:48<19:21,  6.05s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:54<19:15,  6.05s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [01:00<19:16,  6.09s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:06<19:07,  6.07s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  11
+  6%|¨„         | 11/200 [01:12<20:51,  6.62s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 0: 0.004/0.000/0.000
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<18:38,  5.62s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<19:03,  5.78s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:17<19:56,  6.07s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:24<20:13,  6.19s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:30<20:03,  6.17s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:36<19:52,  6.15s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:42<19:47,  6.15s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:48<19:39,  6.15s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:55<19:35,  6.16s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [01:01<19:34,  6.18s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:07<19:28,  6.18s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 12/200 [01:13<19:21,  6.18s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨ƒ         | 13/200 [01:20<20:11,  6.48s/it]before2 predictions.shape =  (203769, 2)
+  7%|¨ƒ         | 14/200 [01:27<19:54,  6.42s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 15/200 [01:33<19:30,  6.33s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 16/200 [01:39<19:11,  6.26s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 17/200 [01:45<18:54,  6.20s/it]before2 predictions.shape =  (203769, 2)
+  9%|¨         | 18/200 [01:51<18:48,  6.20s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨         | 19/200 [01:57<18:35,  6.16s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 20/200 [02:03<18:34,  6.19s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 21/200 [02:09<18:21,  6.15s/it]before2 predictions.shape =  (203769, 2)
+ 11%|¨€         | 22/200 [02:16<18:27,  6.22s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 23/200 [02:22<18:21,  6.22s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 24/200 [02:28<18:13,  6.21s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨†        | 25/200 [02:34<18:06,  6.21s/it]before2 predictions.shape =  (203769, 2)
+ 13%|¨€¨†        | 26/200 [02:41<18:20,  6.32s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨†        | 27/200 [02:47<18:13,  6.32s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨…        | 28/200 [02:54<18:07,  6.32s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨…        | 29/200 [03:00<18:15,  6.40s/it]before2 predictions.shape =  (203769, 2)
+ 15%|¨€¨„        | 30/200 [03:07<18:01,  6.36s/it]before2 predictions.shape =  (203769, 2)
+ 16%|¨€¨„        | 31/200 [03:13<17:36,  6.25s/it]before2 predictions.shape =  (203769, 2)
+ 16%|¨€¨„        | 32/200 [03:19<17:20,  6.19s/it]before2 predictions.shape =  (203769, 2)
+ 16%|¨€¨ƒ        | 33/200 [03:25<17:12,  6.18s/it]before2 predictions.shape =  (203769, 2)
+ 17%|¨€¨ƒ        | 34/200 [03:31<17:02,  6.16s/it]before2 predictions.shape =  (203769, 2)
+ 18%|¨€¨‚        | 35/200 [03:37<17:01,  6.19s/it]before2 predictions.shape =  (203769, 2)
+ 18%|¨€¨‚        | 36/200 [03:43<16:52,  6.18s/it]before2 predictions.shape =  (203769, 2)
+ 18%|¨€¨‚        | 37/200 [03:50<16:53,  6.22s/it]before2 predictions.shape =  (203769, 2)
+ 19%|¨€¨        | 38/200 [03:56<17:00,  6.30s/it]before2 predictions.shape =  (203769, 2)
+ 20%|¨€¨        | 39/200 [04:03<17:12,  6.41s/it]before2 predictions.shape =  (203769, 2)
+ 20%|¨€¨€        | 40/200 [04:09<17:14,  6.47s/it]before2 predictions.shape =  (203769, 2)
+ 20%|¨€¨€        | 41/200 [04:16<16:55,  6.39s/it]before2 predictions.shape =  (203769, 2)
+ 21%|¨€¨€        | 42/200 [04:22<16:59,  6.45s/it]before2 predictions.shape =  (203769, 2)
+ 22%|¨€¨€¨‡       | 43/200 [04:28<16:39,  6.37s/it]before2 predictions.shape =  (203769, 2)
+ 22%|¨€¨€¨‡       | 44/200 [04:35<16:46,  6.45s/it]before2 predictions.shape =  (203769, 2)
+ 22%|¨€¨€¨†       | 45/200 [04:42<16:54,  6.54s/it]before2 predictions.shape =  (203769, 2)
+when eary stopping, epoch =  45
+ 22%|¨€¨€¨†       | 45/200 [04:48<16:35,  6.42s/it]
+type(metrics) =  <class 'collections.defaultdict'>
+Best f1 at iteration 34: 1.000/0.879/0.885
+self.out_dim =  2
+  0%|          | 0/200 [00:00<?, ?it/s]line 319 , node_features.shape =  torch.Size([203769, 96])
+before2 predictions.shape =  (203769, 2)
+  0%|          | 1/200 [00:05<18:58,  5.72s/it]before2 predictions.shape =  (203769, 2)
+  1%|          | 2/200 [00:11<19:55,  6.04s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 3/200 [00:18<20:03,  6.11s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨‡         | 4/200 [00:24<20:22,  6.24s/it]before2 predictions.shape =  (203769, 2)
+  2%|¨†         | 5/200 [00:31<20:26,  6.29s/it]before2 predictions.shape =  (203769, 2)
+  3%|¨†         | 6/200 [00:37<20:36,  6.37s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨†         | 7/200 [00:43<20:27,  6.36s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 8/200 [00:50<20:17,  6.34s/it]before2 predictions.shape =  (203769, 2)
+  4%|¨…         | 9/200 [00:56<20:23,  6.40s/it]before2 predictions.shape =  (203769, 2)
+  5%|¨„         | 10/200 [01:02<19:59,  6.31s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 11/200 [01:09<19:46,  6.28s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨„         | 12/200 [01:15<19:29,  6.22s/it]before2 predictions.shape =  (203769, 2)
+  6%|¨ƒ         | 13/200 [01:21<19:20,  6.21s/it]before2 predictions.shape =  (203769, 2)
+  7%|¨ƒ         | 14/200 [01:27<19:05,  6.16s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 15/200 [01:33<18:51,  6.12s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 16/200 [01:39<18:54,  6.17s/it]before2 predictions.shape =  (203769, 2)
+  8%|¨‚         | 17/200 [01:46<19:05,  6.26s/it]before2 predictions.shape =  (203769, 2)
+  9%|¨         | 18/200 [01:52<18:43,  6.17s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨         | 19/200 [01:58<18:44,  6.21s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 20/200 [02:04<18:35,  6.20s/it]before2 predictions.shape =  (203769, 2)
+ 10%|¨€         | 21/200 [02:10<18:35,  6.23s/it]before2 predictions.shape =  (203769, 2)
+ 11%|¨€         | 22/200 [02:17<18:35,  6.27s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 23/200 [02:23<18:26,  6.25s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨‡        | 24/200 [02:29<18:12,  6.20s/it]before2 predictions.shape =  (203769, 2)
+ 12%|¨€¨†        | 25/200 [02:35<18:15,  6.26s/it]before2 predictions.shape =  (203769, 2)
+ 13%|¨€¨†        | 26/200 [02:42<18:14,  6.29s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨†        | 27/200 [02:48<17:55,  6.22s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨…        | 28/200 [02:54<17:42,  6.18s/it]before2 predictions.shape =  (203769, 2)
+ 14%|¨€¨…        | 29/200 [03:00<17:50,  6.26s/it]forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+libifcoremd.dll    00007FFAC9BA3B58  Unknown               Unknown  Unknown
+KERNELBASE.dll     00007FFB4CB6B403  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFB4E6B7034  Unknown               Unknown  Unknown
+ntdll.dll          00007FFB4F2E2651  Unknown               Unknown  Unknown

@@ -1,0 +1,32 @@
+{
+    "0": {
+        "bgnn-all_orig_featFalse-class_weightsNone-depth6-dropout0.0-ex_input_featFalse-hidden_dim64-in_featFalse-iter_per_epoch30-lr0.003-nameagnn-only_gbdtFalse": {
+            "loss": {
+                "train": 0.0005114714149385691,
+                "val": 0.14813223481178284,
+                "test": 0.1536041498184204
+            },
+            "accuracy": {
+                "train": 0.9998567700386047,
+                "val": 0.9656721353530884,
+                "test": 0.9663042426109314
+            },
+            "precision": {
+                "train": 0.9981916546821594,
+                "val": 0.803398072719574,
+                "test": 0.8220859169960022
+            },
+            "recall": {
+                "train": 1.0,
+                "val": 0.8487972617149353,
+                "test": 0.8201754093170166
+            },
+            "f1": {
+                "train": 0.9992758631706238,
+                "val": 0.8199663758277893,
+                "test": 0.8254322409629822
+            },
+            "elapsed_time": 76.74071669578552
+        }
+    }
+}
